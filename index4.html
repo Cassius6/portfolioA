@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profolio</title>
+
+    <style>
+        body{
+                margin: 0!important;
+            }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #fff;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+      color: white;
+    }
+    .active {
+      background-color: #cfa352;
+    }
+    /* .profile{
+        background-color: yellow;
+        
+    
+    } */
+    .h1{margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;}
+        .clickhere{
+            margin-left: 20px;
+            text-decoration: none;
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            }
+            .screenshoot{
+                margin-top: 20px;
+                margin-bottom: 20;
+                margin-left: 10;
+                margin-right: 10;
+            }
+            img {
+      border-radius: 8px;
+    }
+    #grad {
+      background-image: linear-gradient(red, yellow);
+    }
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #a8b12e;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    </style>
+
+</head>
+<body>
+
+    <ul>
+        <li><a href="#"><h2>Home</h2></a></li>
+        <li><a href="#aboutus"><h2>About</h2></a></li>
+        <li><a href="#contact"><h2>Contacts</h2></a></li>
+        <li><a href="#resume"><h2>Resume</h2></a></li>
+        <!-- <li><a href="#home"><h2>Services</h2></a></li> -->
+        <!-- <li><a href="#home"><h2>FAQ</h2></a></li> -->
+        <li><a href="#"><h2>Clients</h2></a></li>
+        <li><a href="#home"><h2>Portfolio</h2></a></li>
+        <li style="float:right"><a class="active" href="#about">Thank you</a></li>
+      </ul>
+
+      <div style="background-color: yellow;"> 
+        <h1 class="h1">Fulgence  HI, I'M A FREELANCER</h1>
+        
+      <ul>    
+        <li style="float:right">
+          <img src="k.jpeg" alt="Screenshoot" width="100" height="150"></li>
+        </ul>
+    
+    <a href="" class="clickhere">Please tap me</a>
+    
+    </div>
+
+<div style="background-color: white;" id="aboutus">
+    <h2 style="text-align: center;background-color: yellow;">about us</h2>
+    <h1 style="text-align: center;">Know me More</h1>
+    <h1><span style="font-weight: normal;">Hi, I'm</span> BIZIMANA Fulgence</h1>
+    <div style="display: flex; font-size: 40px;">
+    <p >I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.</p>
+
+    <img src="k.jpeg" alt="Screenshoot" width="350" height="500"></li>
+</div>
+</div>
+<!-- contact -->
+<div id="contact">
+<h1 style="text-align: center;">Contact me please!</h1>
+
+<div class="container"style=" width: 50vw; margin-left : 25vw;">
+    <form>
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="Rwanda">Rwanda</option>
+        <option value="Burundi">Burundi</option>
+        <option value="Uganda">Uganda</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+</div>
+  </div>
+
+
+  <!-- resume -->
+  <div id="resume">
+  <h2 style="text-align: center;color: red ;">Resume</h2>
+  <h1 style="text-align: center;">A summary of My Resume</h1>
+  <div style="display: flex;">
+      <div>
+  <h2>My Education</h2>
+<p>Master in Computer Engineering</p>
+    <p> Harvard University / 2015 - 2017</p>
+
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+    industry. Lorem Ipsum has been the dummy text.</p>
+
+<p>Bachelor in Computer Engineering
+    University of California / 2014 - 2015</p>
+
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+
+<p>Computer Science
+    International University / 2013 - 2014</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+</div>
+
+<div>
+<p>
+    <h2>My Experience</h2>
+    Sr. Font End Developer
+    Apple Inc / 2020 - Current</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.
+</p>
+
+<p>Jr. Font End Developer
+    Dribbble Inc / 2018 - 2020</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+
+<p>HTML Developer
+    Adobe Inc / 2017 - 2018</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+</div>
+</div>
+<div style="align-items: center;">
+  <div style="text-align: center"><input type="submit" value="Download CV";color:yellow></div>
+  
+</div>
+</div>
+</body>
+</html>
